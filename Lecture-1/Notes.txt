@@ -1,0 +1,36 @@
+Browser has js engine in it and excecute it.
+How to get react into our project  ?
+:cdn react
+As you add the CDN inject it in the code, our Browser will be consider it as a react app.
+
+-> creating element is job of react
+-> creating root is job of reactDOM
+
+
+How do I create tree type of structure in react ?
+
+React element is end of the day -> object
+
+ReactElement(Object)=HTML(Browser understand)
+
+How to create child inside parent ?
+How to create siblings ?
+
+
+Does the order of file in html does matter ?
+->It does matter !!
+Your react CDN must be before you  "index.js file"
+
+-> root.render(parent):putting just parent inside the root.
+-> What ever inside the root is getting "replace" by what ever I put inside the parent/(.render())
+
+
+ React is working inside this root ?
+ -> React is only working my div "id=root". Everything what I render will render inside root.
+
+ React is a library : it can works even only one part of your code, if you want to make it specific. It's not full fledged framework. It can work independently. with just small piece of code. It is just javascript.
+ We can do it small code of app.
+ 
+ A framework which comes all loads of things.
+
+

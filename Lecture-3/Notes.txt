@@ -1,0 +1,62 @@
+Lecture -3 
+                                            Lecture 3 
+
+ ->Execute this command : npx pracel index.html
+ It means you are excuting the parcel package, and gives index.html file.
+
+
+-> Let's create script to build our project, for starting our project in dev mode
+-> Go to package find script you will get idea how to execute the program
+
+-> What is React element ?
+Just like DOM element we have react element, it is similar to DOM element.
+
+
+-> If you do React.createElement is an object, when we render this element on to the DOM it becomes a HTML element.
+
+
+-> If we are continue going to do all these stuff, it's not good for us to work in this way.
+
+->So solve this problem introduce JSX.
+
+-> JSX is different in React.
+
+-> How do we use to build the Application before React.js come into market.
+
+->JSX and React both is different.
+
+->JSX is not valid and valid js.
+-> JavaScript is code that js engine can understand. 
+-> Can JS engine understand the JSX ?
+
+-> If JS engine don't understand this code how it is working then, so Parcel is helping it. Before going to JS engine it is transpiled(converted to the code that browser can understand)
+
+-> JSX=>React.createElement=>ReactElement-JS Object =>HTMLElement(render)
+
+-> Bable help to convert the code 
+->Babel is SuperHero is JavaScript compiler.
+
+-> JSX is HTML like syntax not a HTML.
+
+->If you want to write it in multiple line we need to wrap it inside round bracket.
+
+-> What is Babel ? What it is doing ?
+: It reads the code and convert the code into React.createElement.
+- It's job is transpiler, js convertor , It is a champ in dealing with one code to another
+
+-> Parcel is manager of Babel.
+
+-> What is jsx and what inside it-> end of the React element.
+
+->React component ?
+ : Everything in React is components 
+ Types : Class based component,
+  Functional components-A function that returns a piece of JSX code.
+  -> React Element vs React Components ?
+  -> What is component composition ?
+
+  -> If you put Title inside Heading and Heading inside Title it go into infinite loop...........
+  -> Whatever the data we pass inside curly braces {} : JSX sanitize the data and then send for rendering
+  ->Nobody do the execute the malicious attack if you use the jsx.
+
+  ->

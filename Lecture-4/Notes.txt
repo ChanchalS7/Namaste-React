@@ -1,0 +1,28 @@
+Build : Food Ordering App     
+First thing to do : Planning
+First step is planning :
+If I open Namaste food how it should look like :
+Header-
+logo in header
+build some links in right side of header
+like:home,about us, cart
+
+Body -
+Searchbar in , search button
+restaurant card
+different card 
+these restaurant card have image of food, title of food, rating,
+time to deliver, how much for two ?
+
+
+Footer-
+we can have copythright, and some links
+
+##Low level planning :
+	how my components look like and how many ?
+major three components : header, body, footer
+header-logo,nav-items
+body-search, restaurantcontainer, restaurantCard
+footer-copyright,Links,address,contact
+
+                

@@ -1,0 +1,104 @@
+Lecture-2 
+The given code is not optimize ?
+What is 1000 of files so I wan to optimize it, minify it, compress it ?
+If I want to put it into production ?
+
+For this we need to bundle all the code(may be 1000's of file)
+
+Here we will learn how you can create you own react app ?
+
+How the engineering works in all these in behind ?
+ 
+ What is NPM ?
+ npm init
+ we got package.json file. - It is configuration file of npm.
+ 
+ Those package dependents on multiple another package.
+
+ How to use package manage in our project ?
+
+
+Let's install some dependency ?
+Most important package for us is bundler.
+Bundler helps you to process the multiple file of code, it packages our app for production.
+The create react app is behind the scene is webpack, it is bundler.
+
+eg : webpack, parcel, vite . 
+
+
+We are going to use Parcel.
+Parcel is a blazing fast web application bundler written in Rust and designed with first class support for JavaScript assets.
+Parcel is very easy to setup and configure.
+It has zero config by default.
+Install Parcel globally using command line:
+npm i -D parcel 
+Two type dependency : dev and normal.
+dev- It is generally require for development phase.
+normal - general use can also be used in production.
+
+# ^ ->(carat)
+# ~ ->(tilde)
+
+As we installed we got package-lock.json file ?
+What it is ?
+What is difference between package-lock.json and package.json ?
+It keeps track of version of package you installed in your system. It keeps track of exact version of package of dependency.
+package.json - keeps track of approx version
+package-lock.json - keeps track of exact version
+
+node_modules -> fetch all the code when we used command for installing to package. It is collection of dependency.
+
+How parcel is manage all the dependency ?
+
+Every package and dependency has its own package-lock.json/package.json .
+
+Parcel is also depends on other package.
+
+If I deleted all node_modules by using package-lock.json and package.json I can recreate the node_modules.
+
+
+##Whatever you can regenerate don't put it on github ?
+
+
+                    IGNITE OUR APP 
+
+
+- npx parcel index.html => build or ignite our app. (executed the package)
+-> As soon as I did npx ....
+->CDN link is not a good way to get react app.
+->We have to call other network request to get react in our app. This is not right way.
+
+
+-> Just install react simply (npm i react)
+->npm i react-dom
+
+No we no longer need CDN.
+
+##What Parcel has done ?
+- Dev build
+- Local server
+- Hot Module Replacement
+- File Watching Algorithm-written in c++
+- Caching - Faster builds
+- Image optimization
+- Minification of files
+- Compressing
+- Bundling 
+- Consistent Hashing
+- Code Splitting
+- Differential Bundling[app install on different browser on different version of browser]
+- Diagnostic
+- HTTPS 
+- Tree Shaking - remove unused code 
+- Different dev and prod bundles 
+
+Create build for parcel - npx parcel build index.html
+-> It create build dist folder for us.
+
+-> We can regenerate the dist folder so don't need to put it on github repository.
+
+-> BrowsersList is npm package, it needs some configuration.
+-> How we will configure it ?
+-> just add the array in package.json and details, how many versions we want ?
+-> It is country specific.
+->
