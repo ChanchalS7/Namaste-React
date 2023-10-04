@@ -35,10 +35,30 @@ const Header = () => {
 
     )
 }
+const styleCard = {
+    backgroundColor: "#f0f0f0"
+}
+const RestaurantCard = () => {
+    return (
+        <div className="res-card" style={styleCard}>
+            <h3>Meghana foods</h3>
+        </div>
+    )
+}
+const Body = () => {
+    return (
+        <div className="body">
+            <div className="serach">Search</div>
+            <div className="res-container"><RestaurantCard /></div>
+
+        </div>
+    )
+}
 const AppLayout = () => {
     return (
         <div className="App">
             <Header />
+            <Body />
         </div>
     )
 }
