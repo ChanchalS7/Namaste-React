@@ -42,6 +42,7 @@ const RestaurantCard = () => {
     return (
         <div className="res-card" style={styleCard}>
             <h3>Meghana foods</h3>
+            <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/g5txnz35wlrgbskk3r8y" alt="food image" />
         </div>
     )
 }
